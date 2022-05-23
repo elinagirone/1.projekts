@@ -16,6 +16,19 @@
     <div id="bilde" style="position: absolute;">
         
     </div>
+
+    <script>
+        var b=document.getElementById("bilde");
+        var klik=false;//vai uz bildes ir uzspiests
+
+        function bildeParadas(){
+            if (!klik){
+                b.innerHTML="<img src=dog.jpg>";
+            }
+        }
+        bildeParadas()
+        
+    </script>
     
 </body>
 </html>
